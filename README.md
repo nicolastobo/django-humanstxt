@@ -6,13 +6,11 @@ Django HumansTXT will make it easy to you to serve humans.txt file.
 
 Install django-humanstxt using pip (we do recommend to do it in a virtualenv).
 
-.. code-block:: sh
 
     pip install django-humanstxt
 
 To integrate it into a Django project, simply add it to your `INSTALLED_APPS`:
 
-.. code-block:: python
 
     INSTALLED_APPS = [
         # some interesting stuff...
@@ -20,7 +18,6 @@ To integrate it into a Django project, simply add it to your `INSTALLED_APPS`:
         # some other stuff...
     ]
 
-.. code-block:: python
 
     urlpatterns = [
         # ...
@@ -28,7 +25,6 @@ To integrate it into a Django project, simply add it to your `INSTALLED_APPS`:
         # ...
     ]
 
-.. code-block:: sh
 
     python manage.py migrate
 
