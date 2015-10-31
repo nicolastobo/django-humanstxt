@@ -36,21 +36,4 @@ To integrate it into a Django project, simply add it to your `INSTALLED_APPS`:
     python manage.py migrate
 
 
-You're now ready to use the admin part.
-
-
-Further documentation
-=====================
-
-.. toctree::
-    :maxdepth: 2
-    :glob:
-
-    views
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+You're now ready to use the app.
